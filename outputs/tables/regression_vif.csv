@@ -1,0 +1,22 @@
+variable,VIF
+dti,1.336
+log_income,1.646
+loan_amnt,1.707
+term,1.189
+revol_util,1.17
+delinq_2yrs,1.014
+inq_last_6mths,1.046
+open_acc,1.335
+pub_rec,1.015
+verification_status_Source Verified,1.466
+verification_status_Verified,1.558
+home_ownership_OTHER,1.002
+home_ownership_OWN,1.117
+home_ownership_RENT,1.214
+purpose_credit_card,16.005
+purpose_debt_consolidation,22.017
+purpose_home_improvement,6.284
+purpose_major_purchase,2.623
+purpose_medical,2.12
+purpose_other,7.498
+purpose_small_business,2.062

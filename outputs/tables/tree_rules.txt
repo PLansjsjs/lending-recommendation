@@ -1,0 +1,46 @@
+|--- term <= 48.00
+|   |--- loan_to_income <= 0.27
+|   |   |--- home_ownership_MORTGAGE <= 0.50
+|   |   |   |--- inq_last_6mths <= 0.50
+|   |   |   |   |--- truncated branch of depth 5
+|   |   |   |--- inq_last_6mths >  0.50
+|   |   |   |   |--- truncated branch of depth 5
+|   |   |--- home_ownership_MORTGAGE >  0.50
+|   |   |   |--- revol_util <= 36.85
+|   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- revol_util >  36.85
+|   |   |   |   |--- truncated branch of depth 5
+|   |--- loan_to_income >  0.27
+|   |   |--- pub_rec <= 0.50
+|   |   |   |--- dti <= 20.76
+|   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- dti >  20.76
+|   |   |   |   |--- truncated branch of depth 5
+|   |   |--- pub_rec >  0.50
+|   |   |   |--- revol_util <= 41.20
+|   |   |   |   |--- class: 0
+|   |   |   |--- revol_util >  41.20
+|   |   |   |   |--- class: 0
+|--- term >  48.00
+|   |--- home_ownership_MORTGAGE <= 0.50
+|   |   |--- loan_to_income <= 0.28
+|   |   |   |--- dti <= 24.35
+|   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- dti >  24.35
+|   |   |   |   |--- class: 0
+|   |   |--- loan_to_income >  0.28
+|   |   |   |--- dti <= 28.64
+|   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- dti >  28.64
+|   |   |   |   |--- class: 1
+|   |--- home_ownership_MORTGAGE >  0.50
+|   |   |--- dti <= 25.41
+|   |   |   |--- loan_to_income <= 0.23
+|   |   |   |   |--- truncated branch of depth 3
+|   |   |   |--- loan_to_income >  0.23
+|   |   |   |   |--- truncated branch of depth 5
+|   |   |--- dti >  25.41
+|   |   |   |--- revol_util <= 48.15
+|   |   |   |   |--- class: 0
+|   |   |   |--- revol_util >  48.15
+|   |   |   |   |--- truncated branch of depth 2

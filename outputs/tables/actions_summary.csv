@@ -1,0 +1,4 @@
+action,borrowers,actual_default_rate,avg_pred_default,avg_benchmark_rate,avg_recommended_rate
+APPROVE,13060,0.1783,0.1753,0.1287,0.1287
+ADJUST RATE,1861,0.3256,0.3321,0.1546,0.1798
+REJECT,76,0.4342,0.6087,0.2035,

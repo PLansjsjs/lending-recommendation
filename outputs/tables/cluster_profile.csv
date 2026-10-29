@@ -1,0 +1,7 @@
+,size,default_rate,avg_loan,avg_income,avg_dti,avg_revol_util,avg_int_rate,pct_60m,share,defining_traits
+S1,6095,0.152,9635.213,61777.983,11.212,25.016,11.932,0.146,0.174,"low log_revol_bal, low revol_util, low dti"
+S2,8368,0.179,22087.724,108111.043,15.333,63.997,13.199,0.361,0.239,"high loan_amnt, high log_income, high log_revol_bal"
+S3,6708,0.209,17373.886,87947.015,22.994,45.615,13.221,0.305,0.192,"high open_acc, high total_acc, high dti"
+S4,3293,0.218,11711.745,69156.234,17.148,46.255,13.673,0.217,0.094,"high pub_rec, low loan_amnt, high inq_last_6mths"
+S5,9661,0.224,9986.728,46803.233,22.151,63.517,13.915,0.171,0.276,"low log_income, low loan_amnt, low total_acc"
+S6,868,0.24,13798.243,86945.564,17.307,52.791,14.233,0.227,0.025,"high delinq_2yrs, high total_acc, high log_income"

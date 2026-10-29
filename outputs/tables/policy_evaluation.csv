@@ -1,0 +1,4 @@
+,loans_funded,share_funded,default_rate_funded,profit_per_$_lent,total_profit_$
+Baseline: lend to everyone at the actual rate,14997.0,1.0,0.1978,0.0859,18597990.4112
+Policy A: reject only (keep actual rates),14921.0,0.9949,0.1966,0.0861,18530183.5532
+Policy B: reject + raise rates on 'ADJUST RATE' loans,14921.0,0.9949,0.1966,0.0914,19661068.9723

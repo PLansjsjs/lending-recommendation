@@ -1,0 +1,22 @@
+variable,description,data_type,scale
+default,"Target (0 = Fully Paid, 1 = Charged Off)",Binary,Nominal
+loan_amnt,Loan amount requested ($),Numeric,Ratio
+term,Loan term in months (36 / 60),Numeric,Ratio
+int_rate,Interest rate (%),Numeric,Ratio
+grade,Lending Club risk grade A-G,Categorical,Ordinal
+emp_length,"Employment length (years, 0-10)",Numeric,Ratio
+home_ownership,Home ownership status,Categorical,Nominal
+annual_inc,Annual income ($),Numeric,Ratio
+verification_status,Income verification status,Categorical,Nominal
+purpose,Loan purpose,Categorical,Nominal
+dti,Debt-to-income ratio (%),Numeric,Ratio
+delinq_2yrs,Delinquencies in past 2 years,Numeric (count),Ratio
+inq_last_6mths,Credit inquiries in last 6 months,Numeric (count),Ratio
+open_acc,Open credit lines,Numeric (count),Ratio
+pub_rec,Derogatory public records,Numeric (count),Ratio
+revol_bal,Revolving balance ($),Numeric,Ratio
+revol_util,Revolving utilisation (%),Numeric,Ratio
+total_acc,Total credit lines,Numeric (count),Ratio
+loan_to_income,Engineered: loan_amnt / annual_inc,Numeric,Ratio
+log_income,Engineered: log of annual income,Numeric,Ratio
+log_revol_bal,Engineered: log(1 + revolving balance),Numeric,Ratio

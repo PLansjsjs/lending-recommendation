@@ -1,0 +1,16 @@
+test,variable,mean_default,mean_paid,statistic,p_value,mann_whitney_p,effect_size,effect_size_type,reject_H0_at_5%
+Welch t-test (defaulted vs paid),annual_inc,69629.8776,76299.42993,-14.67495,0.0,0.0,-0.16021,Cohen d,True
+Welch t-test (defaulted vs paid),loan_amnt,15681.47624,14177.43766,15.1227,0.0,0.0,0.17097,Cohen d,True
+Welch t-test (defaulted vs paid),dti,19.96771,17.73892,22.27403,0.0,0.0,0.25477,Cohen d,True
+Welch t-test (defaulted vs paid),revol_util,54.7815,50.95149,14.26005,0.0,0.0,0.15824,Cohen d,True
+Welch t-test (defaulted vs paid),int_rate,15.77612,12.63363,58.41093,0.0,0.0,0.66856,Cohen d,True
+Welch t-test (defaulted vs paid),emp_length,5.86067,5.9901,-2.98781,0.00281,0.00184,-0.03495,Cohen d,True
+Welch t-test (defaulted vs paid),loan_to_income,0.26044,0.20823,7.26975,0.0,0.0,0.09993,Cohen d,True
+Welch t-test (defaulted vs paid),inq_last_6mths,0.77685,0.62599,13.51766,0.0,0.0,0.15655,Cohen d,True
+Welch t-test (defaulted vs paid),delinq_2yrs,0.35288,0.30222,4.81379,0.0,3e-05,0.05604,Cohen d,True
+Chi-square independence,term,,,1631.61458,0.0,,0.18066,Cramer V,True
+Chi-square independence,purpose,,,128.49173,0.0,,0.0507,Cramer V,True
+Chi-square independence,home_ownership,,,280.84901,0.0,,0.07495,Cramer V,True
+Chi-square independence,verification_status,,,407.02269,0.0,,0.09023,Cramer V,True
+Chi-square independence,grade,,,3524.14012,0.0,,0.26551,Cramer V,True
+Two-proportion z-test (60m vs 36m),term,0.32513,0.15712,40.40635,0.0,,,,True

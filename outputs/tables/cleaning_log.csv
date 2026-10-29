@@ -1,0 +1,4 @@
+step,rows_before,rows_after,note
+Keep Fully Paid / Charged Off,50000,50000,'Current' loans have no outcome yet
+Drop duplicate rows,50000,50000,
+"Drop missing/zero income, amount, term, rate",50000,49990,
